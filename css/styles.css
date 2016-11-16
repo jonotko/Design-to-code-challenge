@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+header{
+  background-color: #eeeeee;
+  border-bottom: 1px solid #DDDDDD;
+}
+nav{
+  
+  position: relative;
+  
+  height: 40px;
+}
+
+h1{
+  /*CSS trick for centering vertically*/
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: normal;
+  
+}
+
+.main-menu ul{
+  position: absolute;
+  list-style: none;
+  right: 10px;
+  top: 50%;
+  margin-top: -10px;
+  font-size: 18px;
+  height: 30px;
+  
+}
+
+.main-menu li{
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.main-menu li>a{
+  text-decoration: none;
+  color: #571d8c;
+}
+
+.search-section{
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+label{
+  display: block;
+  margin-bottom: 8px;
+}
+
+.search-section input{
+  width: 400px;
+  height: 30px;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 0 5px 0 8px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  
+}
+
+.search-section button{
+  font-size:17px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  vertical-align: bottom;
+  padding-top: 2px;
+  padding-right: 6px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+}
+
+.search-section img{
+  
+  height: 100%;
+  padding: 0px;
+}
+
+.paging{
+  display: inline-block;
+  font-size: 0;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+
+.paging-btn{
+  display: inline-block;
+  font-size: 16px;
+  padding: 8px 15px;
+}
+
+.paging-display{
+  font-size: 16px;
+  padding: 8px 25px;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
+main{
+  margin-left: 100px;
+}
+.listing{
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.listing-date, .listing-location{
+  color: #999;
+}
+
+.listing-title{
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: rgb(85, 26, 139);
+}
+
+a{
+  text-decoration: none;
+}
